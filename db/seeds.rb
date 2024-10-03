@@ -14,3 +14,5 @@ puts "Creating cars..."
 
 Car.create!(brand: "Tesla", model: "Model X Plaid", year: 2020, fuel:"Electric", owner: owner1)
 Car.create!(brand: "Tesla", model: "Cybertruck", year: 2025, fuel:"Electric", owner: owner2)
+
+puts "Seed created! #{Owner.all.count} owners created & #{Car.all.count} cars created."
